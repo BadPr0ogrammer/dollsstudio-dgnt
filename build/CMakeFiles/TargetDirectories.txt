@@ -1,0 +1,3 @@
+C:/Users/user2/source/dollsstudio-dgnt/build/CMakeFiles/dollsstudio.dir
+C:/Users/user2/source/dollsstudio-dgnt/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user2/source/dollsstudio-dgnt/build/CMakeFiles/ZERO_CHECK.dir

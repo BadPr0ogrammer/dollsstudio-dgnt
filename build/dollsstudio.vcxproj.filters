@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\src\FirstPersonCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\src\SampleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\src\SampleBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\src\Win32\InputControllerWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\src\Win32\SampleAppWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\FirstPersonCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\InputController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\SampleApp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\SampleBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\TrackballCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleBase\include\Win32\InputControllerWin32.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user2\source\dollsstudio-dgnt\SampleViewer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user2\source\dollsstudio-dgnt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E1CA7CAB-9E1C-3969-B70B-AE56A74D170B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C82390E6-53F9-3501-9B7B-C08D54B3B5CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
