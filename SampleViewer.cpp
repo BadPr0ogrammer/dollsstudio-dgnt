@@ -245,15 +245,15 @@ void GLTFViewer::UpdateScene()
     m_Transforms[1] = m_Transforms[0];
 }
 
-/*
 void GLTFViewer::UpdateModelsList(const std::string& Dir)
 {
     m_Models.clear();
+    /*
     for (size_t i = 0; i < _countof(DefaultGLTFModels); ++i)
     {
         m_Models.push_back(ModelInfo{DefaultGLTFModels[i].first, DefaultGLTFModels[i].second});
     }
-
+    */
 #if PLATFORM_WIN32 || PLATFORM_LINUX || PLATFORM_MACOS
     if (!Dir.empty())
     {
@@ -265,7 +265,7 @@ void GLTFViewer::UpdateModelsList(const std::string& Dir)
     }
 #endif
 }
-*/
+
 GLTFViewer::CommandLineStatus GLTFViewer::ProcessCommandLine(int argc, const char* const* argv)
 {
     CommandLineParser ArgsParser{argc, argv};
@@ -283,7 +283,7 @@ GLTFViewer::CommandLineStatus GLTFViewer::ProcessCommandLine(int argc, const cha
     std::string ExtraModelsDir;
     ArgsParser.Parse("dir", 'd', ExtraModelsDir);
     
-    /// UpdateModelsList(ExtraModelsDir.c_str());
+    UpdateModelsList(ExtraModelsDir.c_str());
 
     return CommandLineStatus::OK;
 }
@@ -733,9 +733,8 @@ void GLTFViewer::Initialize(const SampleInitInfo& InitInfo)
     {
         // ProcessCommandLine is not called on all platforms, so we need to initialize the models list.
         UpdateModelsList("");
-    }
+    }*/
     LoadModel(!m_ModelPath.empty() ? m_ModelPath.c_str() : m_Models[m_SelectedModel].Path.c_str());
-    */
 }
 
 RefCntAutoPtr<IShaderSourceInputStreamFactory> CreateCompoundShaderSourceFactory(IRenderDevice* pDevice)

@@ -71,7 +71,7 @@ private:
     void UpdateScene();
     void UpdateUI();
     void CreateGLTFResourceCache();
-    //void UpdateModelsList(const std::string& Dir);
+    void UpdateModelsList(const std::string& Dir);
     bool SetEnvironmentMap(ITextureView* pEnvMap);
     void CreateGLTFRenderer();
     void CrateEnvMapRenderer();
@@ -113,7 +113,7 @@ private:
     int         m_SelectedModel  = 0;
 
     float4x4 m_BoundBoxTransform;
-    /*
+    
     struct ModelInfo
     {
         std::string Name;
@@ -121,7 +121,7 @@ private:
     };
     std::vector<ModelInfo>   m_Models;
     std::vector<const char*> m_ModelNames;
-    */
+    
     enum class BoundBoxMode : int
     {
         None = 0,
